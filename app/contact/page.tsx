@@ -54,7 +54,8 @@ export default function Contact() {
         <p className="font-prompt text-2xl font-bold text-white mb-2">📄 Download Resume</p>
         <p className="text-indigo-200 font-sarabun mb-6">ดาวน์โหลด Resume ของผมได้เลย</p>
         <a
-          href="#"
+          href="/Rapeepat_Resume.pdf"
+          download="Rapeepat_Resume.pdf"
           className="inline-flex items-center gap-2 bg-white text-indigo-700 font-prompt font-bold px-8 py-3 rounded-xl hover:bg-indigo-50 transition-all hover:scale-105"
         >
           ⬇️ Download Resume
