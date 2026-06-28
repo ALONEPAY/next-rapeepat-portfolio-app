@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  background-color: #030712;
+  color: #f9fafb;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+}
+
+.skill-bar {
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  border-radius: 9999px;
+  height: 8px;
+  transition: width 1s ease;
+}
+
+pre code {
+  font-family: var(--font-mono), 'Courier New', monospace;
+  font-size: 0.72rem;
+}
